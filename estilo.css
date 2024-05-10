@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+#contenedor{
+    border: 1px solid rgb(8, 175, 36);
+    margin: 100px;
+    background-color: white;
+    
+}
+#cabecera{
+    margin: 20px;
+}
+#menu{
+    border-bottom: 2px solid rgb(91, 179, 9);
+    margin: 20px;
+}
+#menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    font-size: 18px;
+    padding-right: 50px;
+}
+#menu a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+#menu a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#contenido{
+    margin: 20px;
+    display: flex;
+    border-bottom: 2px solid rgb(12, 173, 12);
+}
+#caja1 #titulo1{
+    background-color:rgb(252, 94, 36);
+    text-align: center;
+
+}
+#caja1 #titulo2{
+    background-color: yellow;
+    text-align: center;
+}
+#caja1{
+    margin: 10px;
+    font-family: "Roboto Slab", serif;
+}
+#caja1 img {
+    float: left;
+}
+#caja2 {
+    margin: 10px;
+    font-family: "Roboto Slab", serif;
+}
+#caja2 #titulo3{
+    background-color: rgb(96, 183, 223);
+    text-align: center;
+}
+#caja2 #titulo4{
+    background-color: rgb(174, 163, 223);
+    text-align: center;
+}
+#caja2 img{
+    float: left;
+}
+#pie{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
